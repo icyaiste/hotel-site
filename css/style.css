@@ -41,7 +41,7 @@ p{
     display: flex;
     justify-content: center;
     align-items: center;
-    height:90%;
+    height:80%;
     
 }
 
@@ -49,4 +49,13 @@ p{
     color: whitesmoke;
     font-size: 15rem;
     margin-bottom: auto;
+}
+
+footer{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.social{
+    margin: 20px;
 }
