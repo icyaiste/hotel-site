@@ -1,0 +1,52 @@
+body{
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+p{
+    color: whitesmoke;
+    font-size: 3rem;
+}
+
+.navigation{
+    max-width: 100%;
+    display: flex;
+    align-items:center;
+}
+
+.navigation__logo{
+    margin:20px 100px 20px 20px;
+}
+
+.navigation__language{
+    margin-right: 10px;
+}
+
+.navigation__menu{
+    display: flex;
+    margin-left: auto;
+    justify-content: space-evenly;
+}
+
+.navigation__menu-page{
+    margin:50px;
+}
+
+
+.title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:90%;
+    
+}
+
+.title h1{
+    color: whitesmoke;
+    font-size: 15rem;
+    margin-bottom: auto;
+}
