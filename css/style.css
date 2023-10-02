@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@500;600;700&family=Frank+Ruhl+Libre:wght@700;900&family=Indie+Flower&family=Playfair+Display:ital,wght@0,400;0,700;1,400;1,500;1,800&display=swap');
+
 /*Home page*/
 
 body {
@@ -12,6 +14,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment:fixed;
+    height: 100%;
 }
 
 p {
@@ -31,12 +34,14 @@ p {
 
 .navigation__language {
     margin-right: 10px;
+    font-family: 'Playfair Display', serif;
 }
 
 .navigation__menu {
     display: flex;
     margin-left: auto;
     justify-content: space-evenly;
+    font-family: 'Playfair Display', serif;
 }
 
 .navigation__menu-page {
@@ -49,7 +54,6 @@ p {
     justify-content: center;
     align-items: center;
     height: 18%;
-    margin-bottom: 50px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -58,16 +62,20 @@ p {
     color: whitesmoke;
     font-size: 15rem;
     margin-bottom: 0;
+    font-family: 'Playfair Display', serif;
 }
 
-.title__addition{
+.title__addition {
     margin-top: 0;
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
 }
 
-footer {
+.socials {
     display: flex;
     justify-content: flex-end;
     align-items: center;
+    margin-top:1380px;
 }
 
 .social__homepage {
@@ -95,7 +103,7 @@ footer {
     display: flex;
     flex-direction: column;
     justify-content: center;
-   border: solid black 1px;
+    border: solid black 1px;
 }
 
 .about__image {
@@ -113,39 +121,46 @@ footer {
     font-size: 5rem;
     padding: 38px;
     margin: 60px 0 0 30px;
+    font-family: 'Playfair Display', serif;
 }
 
 .about__text {
     color: black;
     padding: 60px;
     margin: 0 0 20px 0;
-    font-size: 47px;
+    font-size: 40px;
+    font-family: 'Playfair Display', serif;
 }
 
-.about__button, .gallery_button {
+.about__button,
+.gallery_button {
     width: 400px;
     height: 80px;
     margin: 20px 0 200px 60px;
 }
 
-.about__button-text, .gallery__buttont-text {
+.about__button-text,
+.gallery__buttont-text {
     margin: 0;
     color: #000;
     font-size: 2rem;
     text-transform: uppercase;
+    font-family: 'Playfair Display', serif;
 }
 
 .about__white-title {
     font-size: 5rem;
     padding: 60px;
     margin-left: 10px;
+    font-family: 'Playfair Display', serif;
 }
 
 .about__white-text {
     color: black;
     padding: 60px;
     margin: 0;
-    font-size: 42px
+    font-size: 36px;
+    font-family: 'Playfair Display', serif;
 }
 
 .about__quote {
@@ -160,11 +175,16 @@ footer {
 .about__quote-title {
     font-size: 7rem;
     padding: 30px;
+    font-family: 'Playfair Display', serif;
+    font-weight: 500;
+    font-style: italic;
 }
 
 .about__quote-text {
     color: #000;
     margin-left: 38%;
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
 }
 
 /*Aside with instagram gallery*/
@@ -184,50 +204,62 @@ footer {
     border: solid black 3px;
 }
 
-.gal{
+.gal {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-.gallery__title{
+.gallery__title {
     align-self: flex-start;
     margin: 50px 0 80px 180px;
     font-size: 6rem;
+    font-family: 'Playfair Display', serif;
 }
 
-.bigfooter{
+.bigfooter {
     display: flex;
     justify-content: space-evenly;
-    align-items:center;
+    align-items: center;
     background-color: #63432E;
     border-top: solid black 3px;
     height: 28%;
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+    font-weight: 400;
 }
 
-.contacts__text{
+.contacts__text {
     color: #000;
     font-size: 50px;
 }
 
 /*Booking page*/
 
-.calender{ 
+.background{
+    background-image: url(/css/bilder/bakgrund.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment:fixed;
+}
+
+.calender {
     display: flex;
-    justify-content:center;
+    justify-content: center;
     margin-top: 200px;
 }
 
-.calender__wrapper{
+.calender__wrapper {
     width: 48%;
     display: flex;
-    justify-content:space-around;
-    margin-left:200px;
+    justify-content: space-around;
+    margin-left: 200px;
 }
 
-.calender__box, .calender__button{
-    border:#63432E solid 5px;
+.calender__box,
+.calender__button {
+    border: #63432E solid 5px;
     background-color: white;
     width: 100%;
     display: flex;
@@ -236,56 +268,62 @@ footer {
     justify-content: center;
 }
 
-.calender__box-text, .calender__button-text{
-    color:#63432E;
+.calender__box-text,
+.calender__button-text {
+    color: #63432E;
     font-weight: bold;
-    text-transform:uppercase;
+    text-transform: uppercase;
     margin: 25px;
+    font-family: 'Playfair Display', serif;
 }
 
-.content{
+.main {
     width: 100%;
     margin: 150px;
+    margin-bottom: 500px;
 }
 
-.room{
+.room {
     display: flex;
     flex-direction: row;
-    margin-left:24%;
-    border:#63432E solid 5px;
+    margin-left: 24%;
+    border: #63432E solid 8px;
     width: 50%;
 }
 
-.room__info{
+.room__info {
     width: 40%;
     display: flex;
     flex-direction: column;
-    justify-content:space-between;
+    justify-content: space-between;
 }
 
-.room__info-title{
+.room__info-title {
     color: #FFF;
     font-size: 5rem;
-    margin:11px;
+    margin: 11px;
     text-transform: uppercase;
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
 }
 
-.room__info-text{
+.room__info-text {
     margin: 5px;
-    font-size: 58px;
+    font-size: 54px;
+    font-family: 'Playfair Display', serif;
 }
 
-.room__picture{
+.room__picture {
     width: 60%;
 }
 
-.room__button{
+.room__button {
     display: flex;
-    justify-content:center;
+    justify-content: center;
     background-color: #63432E;
 }
 
-.room__button-text{
-    color:#FFF;
+.room__button-text {
+    color: #FFF;
     margin: 10px;
 }
