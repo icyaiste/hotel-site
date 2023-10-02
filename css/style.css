@@ -326,4 +326,7 @@ p {
 .room__button-text {
     color: #FFF;
     margin: 10px;
+    font-size: 3rem;
+    text-transform: uppercase;
+    font-family: 'Playfair Display', serif;
 }
