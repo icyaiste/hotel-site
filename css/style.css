@@ -13,7 +13,7 @@ body {
     background-image: url(/css/bilder/bakgrund.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-attachment:fixed;
+    background-attachment: fixed;
     height: 100%;
 }
 
@@ -23,7 +23,6 @@ p {
 }
 
 .navigation {
-    max-width: 100%;
     display: flex;
     align-items: center;
 }
@@ -75,7 +74,7 @@ p {
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    margin-top:1380px;
+    margin-top: 1380px;
 }
 
 .social__homepage {
@@ -237,11 +236,11 @@ p {
 
 /*Booking page*/
 
-.background{
+.background {
     background-image: url(/css/bilder/bakgrund.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-attachment:fixed;
+    background-attachment: fixed;
 }
 
 .calender {
@@ -278,7 +277,6 @@ p {
 }
 
 .main {
-    width: 100%;
     margin: 150px;
     margin-bottom: 500px;
 }
@@ -329,4 +327,92 @@ p {
     font-size: 3rem;
     text-transform: uppercase;
     font-family: 'Playfair Display', serif;
+}
+
+@media screen and (max-width:786px) {
+
+    .wrapper {
+        background-position: center;
+    }
+
+    .navigation__logo {
+        margin: 5px 50px 5px 5px;
+        max-width: 15%;
+    }
+
+    .navigation__language {
+        display: none;
+    }
+
+    .navigation__menu {
+        margin-left: 2%;
+        width: 70%;
+    }
+
+    .navigation__menu-page {
+        margin: 3%;
+        font-size: x-large;
+    }
+
+    .title {
+        width: 60%;
+    }
+
+    .title h1 {
+        font-size: 80px;
+        margin-top: 30%;
+    }
+
+    .title__addition {
+        font-size: large;
+    }
+
+    .socials {
+        display: none;
+    }
+    
+    .content{
+        display:grid;
+    }
+    .about {
+        display: grid;
+        grid-template-columns: 100%;
+        grid-auto-rows: auto;
+        max-width: 1000px;
+    }
+
+    .about__colored{
+        max-width: 1000px;
+    }
+
+    .about__title {
+        display: flex;
+        justify-content: center;
+        font-size: 4rem;
+        padding:1%;
+        max-width:700px;
+        margin:0;
+    }
+    
+    .about__text {
+        padding: 2%;
+        margin: 0 0 20px 0;
+        font-size: 2,5rem;
+    }
+    
+    .about__button,
+    .gallery_button {
+        width: 400px;
+        height: 80px;
+        margin: 0 0 40px 40px;
+    }
+    
+    .about__button-text,
+    .gallery__buttont-text {
+        margin: 0;
+        color: #000;
+        font-size: 2rem;
+        text-transform: uppercase;
+        font-family: 'Playfair Display', serif;
+    }
 }
