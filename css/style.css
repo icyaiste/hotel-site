@@ -379,6 +379,7 @@ p {
         grid-template-columns: 100%;
         grid-auto-rows: auto;
         max-width: 1000px;
+        margin: 0;
     }
 
     .about__colored{
@@ -402,17 +403,13 @@ p {
     
     .about__button,
     .gallery_button {
-        width: 400px;
-        height: 80px;
+        width: 300px;
+        height: 60px;
         margin: 0 0 40px 40px;
     }
     
     .about__button-text,
     .gallery__buttont-text {
-        margin: 0;
-        color: #000;
-        font-size: 2rem;
-        text-transform: uppercase;
-        font-family: 'Playfair Display', serif;
+        font-size: 28px;
     }
 }
