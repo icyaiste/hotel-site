@@ -47,6 +47,7 @@ body {
 .navigation__menu-page {
     margin: 20px;
     color: whitesmoke;
+    text-decoration: none;
 }
 
 .title {
@@ -98,7 +99,7 @@ body {
     display: grid;
     grid-template-columns: 60% 40%;
     grid-template-rows: auto;
-    margin: 0 0 200px 0;
+    margin: 0 0 60px 0;
     width: 100%;
 }
 
@@ -114,57 +115,58 @@ body {
 .about__image {
     width: 100%;
     border: solid black 1px;
+    height:449px;
 }
 
 .about__white {
     width: 100%;
+    height: 450px;
     display: flex;
     flex-direction: column;
 }
 
 .about__title {
-    font-size: 5rem;
-    padding: 38px;
-    margin: 60px 0 0 30px;
+    font-size: 3rem;
+    margin: 0 0 25px 28px;
     font-family: 'Playfair Display', serif;
 }
 
 .about__text {
     color: black;
-    padding: 60px;
-    margin: 0 0 20px 0;
-    font-size: 40px;
+    padding: 0 20px 0 20px;
+    margin: 10px 0 20px 0;
+    font-size: 15px;
     font-family: 'Playfair Display', serif;
 }
 
 .about__button,
 .gallery_button {
-    width: 400px;
-    height: 80px;
-    margin: 20px 0 200px 60px;
+    width: 170px;
+    height: 30px;
+    margin: 10px 0 0 20px;
 }
 
 .about__button-text,
 .gallery__buttont-text {
     margin: 0;
     color: #000;
-    font-size: 2rem;
+    font-size: 14px;
     text-transform: uppercase;
     font-family: 'Playfair Display', serif;
 }
 
 .about__white-title {
-    font-size: 5rem;
-    padding: 60px;
-    margin-left: 10px;
+    font-size: 25px;
+    margin-top: 8px;
     font-family: 'Playfair Display', serif;
+    padding-left: 20px;
 }
 
 .about__white-text {
     color: black;
-    padding: 60px;
+    padding: 11px;
     margin: 0;
-    font-size: 36px;
+    font-size: 15px;
     font-family: 'Playfair Display', serif;
 }
 
@@ -178,7 +180,7 @@ body {
 }
 
 .about__quote-title {
-    font-size: 7rem;
+    font-size: 3rem;
     padding: 30px;
     font-family: 'Playfair Display', serif;
     font-weight: 500;
@@ -190,6 +192,7 @@ body {
     margin-left: 38%;
     font-family: 'Playfair Display', serif;
     font-style: italic;
+    font-size: 2rem;
 }
 
 /*Aside with instagram gallery*/
@@ -198,14 +201,14 @@ body {
     display: grid;
     grid-template-columns: repeat(6, 1fr);
     grid-auto-rows: auto;
-    gap: 50px;
+    margin-bottom: 18px;
 }
 
 .gallery__image {
     grid-column: auto / span 2;
-    width: 1000px;
+    width: 300px;
     height: auto;
-    margin-top: 80px;
+    margin-top: 10px;
     border: solid black 3px;
 }
 
@@ -218,15 +221,15 @@ body {
 
 .gallery__title {
     align-self: flex-start;
-    margin: 50px 0 80px 180px;
-    font-size: 6rem;
+    margin: 50px 0 33px 80px;
+    font-size: 3rem;
     font-family: 'Playfair Display', serif;
 }
 
-.bigfooter {
+.mainfooter {
     display: flex;
     justify-content: space-evenly;
-    align-items: center;
+    align-items:center;
     background-color: #63432E;
     border-top: solid black 3px;
     height: 28%;
@@ -235,9 +238,17 @@ body {
     font-weight: 400;
 }
 
+.contacts{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .contacts__text {
     color: #000;
-    font-size: 50px;
+    font-size: 20px;
+    text-decoration: none;
+    margin-bottom: 15px;
 }
 
 /*Booking page*/
@@ -283,7 +294,6 @@ body {
 }
 
 .main {
-    width: 100%;
     margin: 150px;
     margin-bottom: 500px;
 }
@@ -335,3 +345,91 @@ body {
     text-transform: uppercase;
     font-family: 'Playfair Display', serif;
 }
+
+@media screen and (max-width: 786px) {
+    .wrapper {
+      background-position: center;
+    }
+  
+    .navigation__logo {
+      margin: 5px 50px 5px 5px;
+      max-width: 15%;
+    }
+  
+    .navigation__language {
+      display: none;
+    }
+  
+    .navigation__menu {
+      margin-left: 2%;
+      width: 70%;
+    }
+  
+    .navigation__menu-page {
+      margin: 3%;
+      font-size: x-large;
+    }
+  
+    .title {
+      width: 60%;
+    }
+  
+    .title h1 {
+      font-size: 80px;
+      margin-top: 30%;
+    }
+  
+    .title__addition {
+      font-size: large;
+    }
+  
+    .socials {
+      display: none;
+    }
+  
+    .content {
+      display: grid;
+    }
+    .about {
+      display: grid;
+      grid-template-columns: 100%;
+      grid-auto-rows: auto;
+      max-width: 1000px;
+    }
+  
+    .about__colored {
+      max-width: 1000px;
+    }
+  
+    .about__title {
+      display: flex;
+      justify-content: center;
+      font-size: 4rem;
+      padding: 1%;
+      max-width: 700px;
+      margin: 0;
+    }
+  
+    .about__text {
+      padding: 2%;
+      margin: 0 0 20px 0;
+      font-size: 2, 5rem;
+    }
+  
+    .about__button,
+    .gallery_button {
+      width: 400px;
+      height: 80px;
+      margin: 0 0 40px 40px;
+    }
+  
+    .about__button-text,
+    .gallery__buttont-text {
+      margin: 0;
+      color: #000;
+      font-size: 2rem;
+      text-transform: uppercase;
+      font-family: "Playfair Display", serif;
+    }
+  }
+  
