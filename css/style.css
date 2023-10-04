@@ -26,8 +26,8 @@ body {
 
 .navigation__logo {
     margin: 20px 100px 20px 20px;
-    width:auto;
-    height:70px;
+    width: auto;
+    height: 70px;
 }
 
 .navigation__language {
@@ -79,7 +79,7 @@ body {
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    margin-top:430px;
+    margin-top: 430px;
 }
 
 .social__homepage {
@@ -115,7 +115,7 @@ body {
 .about__image {
     width: 100%;
     border: solid black 1px;
-    height:449px;
+    height: 449px;
 }
 
 .about__white {
@@ -229,7 +229,7 @@ body {
 .mainfooter {
     display: flex;
     justify-content: space-evenly;
-    align-items:center;
+    align-items: center;
     background-color: #63432E;
     border-top: solid black 3px;
     height: 28%;
@@ -238,7 +238,7 @@ body {
     font-weight: 400;
 }
 
-.contacts{
+.contacts {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -252,7 +252,8 @@ body {
     margin-bottom: 15px;
 }
 
-.map , .logotype{
+.map,
+.logotype {
     padding: 15px;
 }
 
@@ -274,7 +275,7 @@ body {
 .calender__wrapper {
     width: 50%;
     display: flex;
-    justify-content:center;
+    justify-content: center;
     margin-left: 30px;
 }
 
@@ -285,7 +286,7 @@ body {
     width: 100%;
     display: flex;
     flex-direction: column;
-    justify-content:center;
+    justify-content: center;
     align-items: center;
 }
 
@@ -356,84 +357,87 @@ body {
 
 @media screen and (max-width: 786px) {
     .wrapper {
-      background-position: center;
-    }
-  
-    .navigation__logo {
-      margin: 5px 50px 5px 5px;
-      max-width: 15%;
-    }
-  
-    .navigation__language {
-      display: none;
-    }
-  
-    .navigation__menu {
-      width: 70%;
-    }
-  
-    .navigation__menu-page {
-      margin: 3%;
-      font-size: large;
-    }
-  
-    .title {
-      width: 60%;
-    }
-  
-    .title h1 {
-      font-size: 80px;
-      margin-top: 30%;
-    }
-  
-    .title__addition {
-      font-size: large;
-    }
-  
-    .socials {
-      display: none;
-    }
-  
-    .content {
-      width: 1000px;
-    }
-    .about {
-      display: grid;
-      grid-template-columns: 100%;
-      grid-auto-rows: auto;
-      max-width: 1000px;
-      margin: 3px;
-    }
-  
-    .about__title {
-      display: flex;
-      justify-content:flex-start;
-      font-size: 3rem;
-      padding: 1%;
-      margin-left: 15px;
-    }
-  
-    .about__text {
-      padding: 2%;
-      margin: 0 0 20px 0;
-      font-size: 30px;
-    }
-  
-    .about__button,
-    .gallery_button {
-      width: 250px;
-      height: 60px;
-      margin: 20px 0 40px 15px;
-    }
-  
-    .about__button-text,
-    .gallery__buttont-text {
-      font-size: 20px;
+        background-position: center;
     }
 
-    .about__white{
+    .navigation__logo {
+        margin: 0 50px 5px 5px;
+        max-width: 15%;
         height: auto;
     }
+
+    .navigation__language {
+        display: none;
+    }
+
+    .navigation__menu {
+        width: 70%;
+    }
+
+    .navigation__menu-page {
+        margin: 3%;
+        font-size: large;
+    }
+
+    .title {
+        width: 60%;
+    }
+
+    .title h1 {
+        font-size: 50px;
+        margin-top: 30%;
+    }
+
+    .title__addition {
+        font-size: medium;
+    }
+
+    .socials {
+        display: none;
+    }
+
+    .content {
+        width: 1000px;
+    }
+
+    .about {
+        display: grid;
+        grid-template-columns: 100%;
+        grid-auto-rows: auto;
+        max-width: 1000px;
+        margin: 3px;
+    }
+
+    .about__title {
+        display: flex;
+        justify-content: flex-start;
+        font-size: 3rem;
+        padding: 1%;
+        margin-left: 15px;
+    }
+
+    .about__text {
+        padding: 2%;
+        margin: 0 0 20px 0;
+        font-size: 30px;
+    }
+
+    .about__button,
+    .gallery_button {
+        width: 250px;
+        height: 60px;
+        margin: 20px 0 40px 15px;
+    }
+
+    .about__button-text,
+    .gallery__buttont-text {
+        font-size: 20px;
+    }
+
+    .about__white {
+        height: auto;
+    }
+
     .about__white-title {
         font-size: 3rem;
         margin-top: 15px;
@@ -444,129 +448,108 @@ body {
         margin: 5px 5px 20px 5px;
         font-size: 25px;
     }
-    
+
     .about__quote {
         height: 500px;
         margin: 3px;
     }
 
-    .about__image{
+    .about__image {
         height: auto;
     }
-    
-    
-.gallery {
-    grid-template-columns: repeat(4, 1fr);
-    margin: 0 0 0 12%;
-}
 
-.gallery__image{
-    margin-bottom: 2%;
-}
+    .gallery {
+        grid-template-columns: repeat(4, 1fr);
+        margin: 0 0 0 12%;
+    }
 
-.gallery__title {
-    margin: 50px 0 33px 40px;
-}
+    .gallery__image {
+        margin-bottom: 2%;
+    }
 
-.mainfooter {
-    width: 1000px;
-}
+    .gallery__title {
+        margin: 50px 0 33px 40px;
+    }
 
-.contacts__text {
-    font-size: 25px;
-}
+    .mainfooter {
+        display: none;
+    }
 
-.background {
-    background-position: center;
-}
+    .contacts {
+        padding: 5px;
+    }
 
-.calender {
-    display: flex;
-    justify-content: center;
-    margin-top: 50px;
-}
+    .contacts__text {
+        font-size: 10px;
+        margin: 2px;
+    }
 
-.calender__wrapper {
-    width: 50%;
-    display: flex;
-    justify-content:center;
-    margin-left: 30px;
-}
+    .map,
+    .logotype {
+        display: none;
+    }
 
-.calender__box,
-.calender__button {
-    border: #63432E solid 5px;
-    background-color: white;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content:center;
-    align-items: center;
-}
+    .background {
+        background-position: center;
+    }
 
-.calender__box-text,
-.calender__button-text {
-    color: #63432E;
-    font-weight: bold;
-    text-transform: uppercase;
-    font-family: 'Playfair Display', serif;
-    text-decoration: none;
-    text-align: center;
-    margin: 8px;
-}
+    .calender {
+        margin-top: 20px;
+    }
 
-.main {
-    margin: 50px;
-}
+    .calender__wrapper {
+        width: 100%;
+        height: fit-content;
+        margin-left: 0;
+    }
 
-.room {
-    display: flex;
-    flex-direction: row;
-    margin-left: 25%;
-    border: #63432E solid 5px;
-    width: 50%;
-}
+    .calender__box-text,
+    .calender__button-text {
+        font-size: x-small;
+    }
 
-.room__info {
-    width: 40%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-}
+    .main {
+        margin: 0;
+    }
 
-.room__info-title {
-    color: #FFF;
-    font-size: 28px;
-    margin: 2px;
-    text-transform: uppercase;
-    font-family: 'Playfair Display', serif;
-    font-weight: 700;
-}
+    .room {
+        flex-direction: row;
+        margin: 0;
+        width: 99%;
+        border: solid #63432E 0px;
+        border-bottom: #63432E solid 3px;
+    }
 
-.room__info-text {
-    margin: 5px;
-    font-size: 18x;
-    color: #FFF;
-    font-family: 'Playfair Display', serif;
-}
+    .room__info {
+        width: 30%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
 
-.room__picture {
-    width: 60%;
-}
+    .room__info-title {
+        font-size: 15px;
+    }
 
-.room__button {
-    display: flex;
-    justify-content: center;
-    background-color: #63432E;
-    width: 50%;
-}
+    .room__info-text {
+        margin: 5px;
+        font-size: 10px;
+        color: #FFF;
+        font-family: 'Playfair Display', serif;
+    }
 
-.room__button-text {
-    color: #FFF;
-    margin: 4px;
-    font-size: 1rem;
-    text-transform: uppercase;
-    font-family: 'Playfair Display', serif;
+    .room__picture {
+        width: 70%;
+    }
+
+    .room__button {
+        width: 60%;
+        height: 23px;
+        align-items: center;
+    }
+
+    .room__button-text {
+        text-align: center;
+        font-size: 10px;
+    }
 }
-  }
-  
